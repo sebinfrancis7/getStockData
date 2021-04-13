@@ -1,0 +1,69 @@
+.styled-table {
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(2, 2, 2, 0.15);
+}
+
+.styled-table td{
+    padding: 15px;
+    width: 150px;
+    max-width: 150px;
+}
+
+.styled-table th {
+    padding: 15px;
+    width: 150px;
+    max-width: 150px;
+    background-color: rgb(105, 6, 105);
+    color: white;
+}
+
+
+#list{
+    background-color: rgb(241, 194, 241);
+    padding: 50px;
+}
+
+.selection-div{
+    padding: 50px;
+}
+.button {
+    background-color:rgb(238, 93, 238);
+    border: 2px solid #140303;
+    color: rgb(14, 12, 12);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px 4px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  .button:hover {
+    background-color: #920c7c;
+    color: white;
+  }
+
+  input{
+      height: 37px;
+      width: 280px;
+  }
+
+  @media screen and (max-width:450px){
+      input{
+          width: 220px;
+      }
+      .selection-div{
+        padding: 30px;
+    }
+
+    #list{
+        padding: 20px;
+    }
+  }
